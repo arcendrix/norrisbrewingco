@@ -1,0 +1,32 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Northern mountain scene</title>
+<desc id="desc">A cinematic illustrated northern mountain landscape with lake reflections and cold air.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="760"><stop stop-color="#06151E"/><stop offset=".42" stop-color="#123149"/><stop offset=".72" stop-color="#12110D"/><stop offset="1" stop-color="#070504"/></linearGradient>
+<radialGradient id="moon" cx="73%" cy="18%" r="40%"><stop stop-color="#F7EFE2" stop-opacity=".42"/><stop offset=".42" stop-color="#2F7AA3" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="760" rx="46" fill="url(#sky)"/>
+<rect width="1200" height="760" rx="46" fill="url(#moon)"/>
+<circle cx="880" cy="125" r="58" fill="#F7EFE2" fill-opacity=".78"/>
+<circle cx="850" cy="112" r="58" fill="#123149" fill-opacity=".88"/>
+<g opacity=".55" filter="url(#blur)">
+<path d="M0 380L130 260L225 326L345 178L515 362L640 225L760 344L920 150L1200 394V760H0V380Z" fill="#2F7AA3"/>
+</g>
+<path d="M0 420L126 272L224 350L352 178L510 402L650 230L760 366L922 145L1200 428V760H0V420Z" fill="#071017"/>
+<path d="M126 272L224 350L352 178L510 402L650 230L760 366L922 145L1200 428V500H0V420L126 272Z" fill="#0E2432"/>
+<path d="M352 178L420 300L382 276L350 345L315 270L270 314L352 178Z" fill="#F7EFE2" fill-opacity=".72"/>
+<path d="M650 230L704 314L672 300L650 354L614 296L586 320L650 230Z" fill="#F7EFE2" fill-opacity=".54"/>
+<path d="M922 145L1010 276L960 250L920 335L873 246L812 302L922 145Z" fill="#F7EFE2" fill-opacity=".72"/>
+<path d="M0 504C155 470 286 468 445 503C640 546 805 554 1200 498V760H0V504Z" fill="#102535"/>
+<path d="M0 590C180 565 320 572 500 600C680 628 820 622 1200 570V760H0V590Z" fill="#081119"/>
+<g opacity=".62" stroke="#F7EFE2" stroke-opacity=".28" stroke-width="2">
+<path d="M115 535H300"/><path d="M420 570H650"/><path d="M760 532H1030"/><path d="M190 630H520"/><path d="M680 646H1050"/>
+</g>
+<g opacity=".9">
+<text x="96" y="120" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#F7EFE2" letter-spacing="4">NORTHERN FRIDGE BEER</text>
+<text x="96" y="154" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#F7EFE2" letter-spacing="-2">Cold enough to remember.</text>
+<text x="96" y="194" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#D9A441" letter-spacing="5">60 CAL • 3G CARBS • 1G SUGAR</text>
+</g>
+<path d="M0 710C160 684 320 700 500 716C690 733 880 732 1200 696V760H0V710Z" fill="#000" fill-opacity=".35"/>
+</svg>
