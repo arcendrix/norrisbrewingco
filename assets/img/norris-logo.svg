@@ -1,0 +1,9 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Norris Brewing Co. logo</title>
+<desc id="desc">A bold angular N inside a circular badge.</desc>
+<rect width="180" height="180" rx="38" fill="#100C09"/>
+<rect x="10" y="10" width="160" height="160" rx="30" stroke="#F7EFE2" stroke-opacity="0.22"/>
+<circle cx="90" cy="90" r="61" stroke="#D42B1F" stroke-width="9"/>
+<path d="M54 132L72 48H92L108 98L120 48H140L122 132H102L86 82L74 132H54Z" fill="#F7EFE2"/>
+<path d="M58 132L76 48" stroke="#D42B1F" stroke-width="5" stroke-linecap="round"/>
+</svg>
