@@ -11,6 +11,7 @@
   <link rel="icon" href="assets/img/norris-logo.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/nutrition.css">
+  <link rel="stylesheet" href="assets/css/motion.css">
 </head>
 <body>
   <div class="noise"></div>
@@ -59,6 +60,31 @@
       <div class="strip-track">
         <span>Crisp Lager</span><span>60 Calories</span><span>3g Carbs</span><span>1g Sugar</span><span>Balanced Pale Ale</span><span>West Coast Bite</span><span>Non-Alcoholic</span><span>Canadian Fridge Beer</span><span>Real Beer Energy</span>
         <span>Crisp Lager</span><span>60 Calories</span><span>3g Carbs</span><span>1g Sugar</span><span>Balanced Pale Ale</span><span>West Coast Bite</span><span>Non-Alcoholic</span><span>Canadian Fridge Beer</span><span>Real Beer Energy</span>
+      </div>
+    </section>
+
+    <section class="scroll-cinema" data-scroll-cinema aria-label="Norris Brewing Co. cinematic scroll story">
+      <div class="cinema-sticky">
+        <div class="cinema-copy reveal">
+          <p class="eyebrow">Scroll the can story</p>
+          <h2>The can should feel like a place.</h2>
+          <p>Pub light, northern air, cold glass, and the feeling of being included all get pulled into one object: the can in your hand.</p>
+          <div class="cinema-steps" aria-label="Cinematic story steps">
+            <div class="cinema-step"><strong>01 Pub</strong><span>Warm lights and familiar beer culture compress into the label.</span></div>
+            <div class="cinema-step"><strong>02 North</strong><span>Cold Canadian space slides into the can and sharpens the brand world.</span></div>
+            <div class="cinema-step"><strong>03 Can</strong><span>60 calories, 3g carbs, 1g sugar — still built like beer.</span></div>
+          </div>
+          <span class="motion-note">Scroll to move the world into the can</span>
+        </div>
+        <div class="cinema-visual" aria-hidden="true">
+          <div class="cinema-scrim"></div>
+          <div class="scene-layer pub"><img src="assets/img/pub-scene.svg" alt=""></div>
+          <div class="scene-layer mountains"><img src="assets/img/mountain-scene.svg" alt=""></div>
+          <img class="portal-can" src="assets/img/can-lager.svg" alt="">
+          <div class="can-memory"><div class="memory-scene memory-pub"></div><div class="memory-scene memory-mountain"></div></div>
+          <div class="can-glass"></div>
+          <div class="cinema-caption"><strong>Not a static brand</strong><span>The world moves into the can as you scroll — pub, mountains, nutrition, identity.</span></div>
+        </div>
       </div>
     </section>
 
@@ -151,5 +177,6 @@
     <nav><a href="lager.html">Lager</a><a href="pale-ale.html">Pale Ale</a><a href="west-coast-ipa.html">West Coast IPA</a><a href="story.html">Story</a><a href="wholesale.html">Wholesale</a><a href="contact.html">Contact</a></nav>
   </footer>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/motion.js"></script>
 </body>
 </html>
