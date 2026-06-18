@@ -3,15 +3,15 @@
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (prefersReduced) return;
 
+  const cinemas = Array.from(document.querySelectorAll('[data-scroll-cinema]'));
+  if (!cinemas.length) return;
+
   root.classList.add('motion-enabled');
 
   const clamp = (value, min = 0, max = 1) => Math.min(max, Math.max(min, value));
   const lerp = (from, to, progress) => from + (to - from) * progress;
   const easeInOut = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
   const easeOut = (t) => 1 - Math.pow(1 - t, 3);
-
-  const cinemas = Array.from(document.querySelectorAll('[data-scroll-cinema]'));
-  if (!cinemas.length) return;
 
   let ticking = false;
 
@@ -21,8 +21,10 @@
     const pub = easeInOut(phaseOne);
     const mountain = easeInOut(phaseTwo);
     const canEnergy = easeOut(clamp((p - 0.08) / 0.82));
+    const ring = lerp(-18, 42, p);
 
-    section.style.setProperty('--ring-r', `${lerp(-18, 42, p)}deg`);
+    section.style.setProperty('--ring-r', `${ring}deg`);
+    section.style.setProperty('--ring-r2', `${ring * -1}deg`);
     section.style.setProperty('--scrim-o', `${lerp(0.14, 0.34, p)}`);
 
     section.style.setProperty('--pub-x', `${lerp(-330, -18, pub)}px`);
@@ -46,7 +48,7 @@
     section.style.setProperty('--can-scale', `${lerp(0.86, 1.08, canEnergy)}`);
 
     section.style.setProperty('--memory-o', `${lerp(0.08, 0.72, canEnergy)}`);
-    section.style.setProperty('--memory-x', `${lerp(0, 0, p)}px`);
+    section.style.setProperty('--memory-x', `0px`);
     section.style.setProperty('--memory-y', `${lerp(18, -8, canEnergy)}px`);
     section.style.setProperty('--memory-scale', `${lerp(0.9, 1.04, canEnergy)}`);
     section.style.setProperty('--memory-zoom', `${lerp(1.26, 1.04, p)}`);
