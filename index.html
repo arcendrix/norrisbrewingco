@@ -4,112 +4,150 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Norris Brewing Co. | Great Taste. Zero Alcohol. All Good.</title>
-  <meta name="description" content="Norris Brewing Co. is a Canadian non-alcoholic beer brand: 60 calories, 3g carbs, 1g sugar, Lager, West Coast IPA, and Pale Ale.">
+  <meta name="description" content="Norris Brewing Co. is a Canadian non-alcoholic beer brand. Great taste. Zero alcohol. All good. 60 calories, 3g carbs, 1g sugar.">
   <meta property="og:title" content="Norris Brewing Co.">
-  <meta property="og:description" content="Great taste. Zero alcohol. All good. 60 calories. 3g carbs. 1g sugar.">
+  <meta property="og:description" content="Great taste. Zero alcohol. All good.">
   <meta property="og:type" content="website">
-  <link rel="icon" href="assets/img/norris-logo.svg">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/nutrition.css">
-  <link rel="stylesheet" href="assets/css/visual.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/norris-home.css">
 </head>
-<body class="visual-home">
-  <div class="noise"></div>
-  <header class="nav">
-    <a class="brand" href="index.html" aria-label="Norris Brewing Co. home"><span class="brand-mark"><img src="assets/img/norris-logo.svg" alt=""></span><span>Norris Brewing Co.</span></a>
-    <button class="menu-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
-    <nav data-menu>
-      <a class="active" href="index.html">Home</a>
-      <a href="lager.html">Lager</a>
-      <a href="pale-ale.html">Pale Ale</a>
-      <a href="west-coast-ipa.html">West Coast IPA</a>
-      <a href="story.html">Story</a>
-      <a href="wholesale.html">Trade</a>
-      <a class="nav-cta" href="contact.html">Join Us</a>
+
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Norris Brewing Co.">
+      <span class="brand-mark">N</span>
+      <span>Norris Brewing Co.</span>
+    </a>
+
+    <button class="menu-button" data-menu-button aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" data-menu>
+      <a href="#lineup"><span>01</span> Lineup</a>
+      <a href="#profile"><span>02</span> Profile</a>
+      <a href="#trade"><span>03</span> Trade</a>
+      <a class="nav-cta" href="#join">Join Us</a>
     </nav>
   </header>
 
-  <main>
-    <section class="campaign-hero" aria-label="Norris Brewing Co. can lineup">
+  <main id="top">
+    <section class="hero" aria-label="Norris Brewing Co. product lineup">
+      <div class="hero-topline">Great Taste. Zero Alcohol. All Good.</div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="glow glow-left"></div>
+        <div class="glow glow-right"></div>
+
+        <img class="hero-can can-left" src="assets/img/can-lager.svg" alt="">
+        <img class="hero-can can-center" src="assets/img/can-west-coast-ipa.svg" alt="">
+        <img class="hero-can can-right" src="assets/img/can-pale-ale.svg" alt="">
+      </div>
+
+      <div class="hero-bottom">
+        <p>Some drink. Some don’t. <strong>Everyone cheers.</strong></p>
+        <span>Proudly brewed in Canada</span>
+      </div>
+
+      <a class="scroll-cue" href="#lineup" aria-label="Scroll to lineup">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="proof-strip" id="profile" aria-label="Nutrition profile">
       <div>
-        <h1 class="campaign-kicker">Great Taste. Zero Alcohol. All Good.</h1>
-        <div class="campaign-rule"></div>
+        <strong>60</strong>
+        <span>Calories</span>
       </div>
-
-      <div class="campaign-visual">
-        <img class="lineup-photo" src="assets/img/norris-lineup-photo.svg" alt="Norris Brewing Co. Lager, West Coast IPA, and Pale Ale cans">
-        <div class="visual-cta-row" aria-label="Primary actions">
-          <a class="visual-pill gold" href="contact.html">Request Launch Access</a>
-          <a class="visual-pill" href="wholesale.html">Trade</a>
-        </div>
+      <div>
+        <strong>3g</strong>
+        <span>Carbs</span>
       </div>
-
-      <div class="campaign-bottom">
-        <p class="slogan">Some drink. Some don’t. <span>Everyone cheers.</span></p>
-        <span class="canada-line">Proudly brewed in Canada</span>
+      <div>
+        <strong>1g</strong>
+        <span>Sugar</span>
       </div>
     </section>
 
-    <section class="stat-band" aria-label="Nutrition highlights">
-      <div><strong>60</strong><span>Calories</span></div>
-      <div><strong>3g</strong><span>Carbs</span></div>
-      <div><strong>1g</strong><span>Sugar</span></div>
-    </section>
-
-    <section class="editorial-panel">
-      <div class="editorial-image" aria-hidden="true"></div>
-      <div class="editorial-copy reveal">
-        <p class="eyebrow">Made for the cooler</p>
-        <h2>Beer culture, without the alcohol.</h2>
-        <p>Three familiar styles. One clean profile. No lecture.</p>
-        <div class="actions"><a class="btn primary" href="contact.html">Join the launch list</a></div>
+    <section class="image-split">
+      <div class="split-visual">
+        <img src="assets/img/can-west-coast-ipa.svg" alt="Norris West Coast IPA can">
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Beer culture, zero alcohol</p>
+        <h1>Premium without trying too hard.</h1>
+        <p class="tight-copy">Three familiar styles. One clean profile. Built for the fridge, the table, the dock, the game, and the person who wants a beer without the alcohol.</p>
+        <a class="button primary" href="#join">Request Launch Access</a>
       </div>
     </section>
 
-    <section class="visual-products" aria-label="Opening lineup">
-      <div class="visual-products-head reveal">
-        <div>
-          <p class="eyebrow">Opening lineup</p>
-          <h2>Three cans. Clear choice.</h2>
-        </div>
-        <p>Lager. West Coast IPA. Pale Ale. Built to look premium before anyone reads a word.</p>
+    <section class="lineup" id="lineup">
+      <div class="section-head">
+        <p class="eyebrow">Opening lineup</p>
+        <h2>Three cans. Clear choice.</h2>
       </div>
-      <div class="product-gallery">
-        <a class="visual-product reveal" href="lager.html" aria-label="Explore Norris Lager">
-          <div class="product-photo-crop lager-crop"></div>
-          <div class="visual-product-label"><span>01</span><h3>Lager</h3></div>
+
+      <div class="product-grid">
+        <a class="product-card" href="lager.html" aria-label="Explore Norris Lager">
+          <div class="product-number">01</div>
+          <img src="assets/img/can-lager.svg" alt="Norris Lager can">
+          <div class="product-meta">
+            <span>Flagship</span>
+            <h3>Lager</h3>
+          </div>
         </a>
-        <a class="visual-product reveal delay-1" href="west-coast-ipa.html" aria-label="Explore Norris West Coast IPA">
-          <div class="product-photo-crop ipa-crop"></div>
-          <div class="visual-product-label"><span>02</span><h3>West Coast IPA</h3></div>
+
+        <a class="product-card featured" href="west-coast-ipa.html" aria-label="Explore Norris West Coast IPA">
+          <div class="product-number">02</div>
+          <img src="assets/img/can-west-coast-ipa.svg" alt="Norris West Coast IPA can">
+          <div class="product-meta">
+            <span>Bold</span>
+            <h3>West Coast IPA</h3>
+          </div>
         </a>
-        <a class="visual-product reveal delay-2" href="pale-ale.html" aria-label="Explore Norris Pale Ale">
-          <div class="product-photo-crop pale-crop"></div>
-          <div class="visual-product-label"><span>03</span><h3>Pale Ale</h3></div>
+
+        <a class="product-card" href="pale-ale.html" aria-label="Explore Norris Pale Ale">
+          <div class="product-number">03</div>
+          <img src="assets/img/can-pale-ale.svg" alt="Norris Pale Ale can">
+          <div class="product-meta">
+            <span>Balanced</span>
+            <h3>Pale Ale</h3>
+          </div>
         </a>
       </div>
     </section>
 
-    <section class="allocation">
-      <div class="allocation-inner reveal">
-        <div>
-          <p class="eyebrow">Join us</p>
-          <h2>Request launch access.</h2>
-          <p>For customers, retailers, restaurants, venues, and partners who want first availability.</p>
-        </div>
-        <form class="email-box" data-mailto-form>
+    <section class="trade" id="trade">
+      <div>
+        <p class="eyebrow">Retail / Restaurant / Venue</p>
+        <h2>Put the non-alc option where the beer drinker already is.</h2>
+      </div>
+      <a class="button ghost" href="wholesale.html">Trade Inquiry</a>
+    </section>
+
+    <section class="join" id="join">
+      <div class="join-panel">
+        <p class="eyebrow">Join us</p>
+        <h2>Request launch access.</h2>
+        <p>For customers, retailers, restaurants, venues, and partners.</p>
+
+        <form class="email-form" data-mailto-form>
           <input name="email" type="email" placeholder="you@example.com" aria-label="Email address" required>
-          <input name="interest" type="hidden" value="Launch access from homepage">
-          <button class="btn primary" type="submit">Request</button>
+          <input name="interest" type="hidden" value="Norris launch access">
+          <button type="submit">Request</button>
         </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div><strong>Norris Brewing Co.</strong><p>Great taste. Zero alcohol. All good.</p></div>
-    <nav><a href="lager.html">Lager</a><a href="west-coast-ipa.html">West Coast IPA</a><a href="pale-ale.html">Pale Ale</a><a href="story.html">Story</a><a href="wholesale.html">Trade</a><a href="contact.html">Join Us</a></nav>
+    <strong>Norris Brewing Co.</strong>
+    <span>Great taste. Zero alcohol. All good.</span>
   </footer>
-  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/norris-home.js"></script>
 </body>
 </html>
