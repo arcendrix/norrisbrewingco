@@ -1,0 +1,45 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Warm pub interior scene</title>
+<desc id="desc">A cinematic illustrated pub with bar lights, stools, taps, and warm reflections.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760"><stop stop-color="#160B08"/><stop offset=".45" stop-color="#31130D"/><stop offset="1" stop-color="#080504"/></linearGradient>
+<radialGradient id="glow" cx="50%" cy="25%" r="70%"><stop stop-color="#F6B45A" stop-opacity=".55"/><stop offset=".44" stop-color="#D42B1F" stop-opacity=".20"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="760" rx="46" fill="url(#bg)"/>
+<rect width="1200" height="760" rx="46" fill="url(#glow)"/>
+<g opacity=".45" filter="url(#soft)">
+<circle cx="230" cy="160" r="86" fill="#F4A742"/>
+<circle cx="590" cy="130" r="112" fill="#D42B1F"/>
+<circle cx="930" cy="190" r="92" fill="#F4A742"/>
+</g>
+<path d="M105 540H1095" stroke="#F7EFE2" stroke-opacity=".18" stroke-width="4"/>
+<rect x="120" y="360" width="960" height="130" rx="28" fill="#2A140D" stroke="#F7EFE2" stroke-opacity=".16"/>
+<rect x="155" y="395" width="890" height="42" rx="21" fill="#D9A441" fill-opacity=".13"/>
+<rect x="180" y="115" width="840" height="190" rx="34" fill="#0D0907" stroke="#F7EFE2" stroke-opacity=".14"/>
+<g opacity=".92">
+<rect x="238" y="155" width="56" height="108" rx="8" fill="#D9A441" fill-opacity=".18" stroke="#D9A441" stroke-opacity=".42"/>
+<rect x="336" y="155" width="56" height="108" rx="8" fill="#D42B1F" fill-opacity=".18" stroke="#D42B1F" stroke-opacity=".46"/>
+<rect x="434" y="155" width="56" height="108" rx="8" fill="#D9A441" fill-opacity=".18" stroke="#D9A441" stroke-opacity=".42"/>
+<rect x="532" y="155" width="56" height="108" rx="8" fill="#D42B1F" fill-opacity=".18" stroke="#D42B1F" stroke-opacity=".46"/>
+<rect x="630" y="155" width="56" height="108" rx="8" fill="#D9A441" fill-opacity=".18" stroke="#D9A441" stroke-opacity=".42"/>
+<rect x="728" y="155" width="56" height="108" rx="8" fill="#D42B1F" fill-opacity=".18" stroke="#D42B1F" stroke-opacity=".46"/>
+<rect x="826" y="155" width="56" height="108" rx="8" fill="#D9A441" fill-opacity=".18" stroke="#D9A441" stroke-opacity=".42"/>
+</g>
+<g stroke="#F7EFE2" stroke-opacity=".34" stroke-width="8" stroke-linecap="round">
+<path d="M476 348V285"/><path d="M512 348V285"/><path d="M548 348V285"/><path d="M584 348V285"/><path d="M620 348V285"/><path d="M656 348V285"/>
+</g>
+<g fill="#0A0705" stroke="#F7EFE2" stroke-opacity=".18" stroke-width="4">
+<circle cx="255" cy="575" r="48"/><rect x="244" y="575" width="22" height="86" rx="11"/><path d="M210 665H300"/>
+<circle cx="425" cy="575" r="48"/><rect x="414" y="575" width="22" height="86" rx="11"/><path d="M380 665H470"/>
+<circle cx="775" cy="575" r="48"/><rect x="764" y="575" width="22" height="86" rx="11"/><path d="M730 665H820"/>
+<circle cx="945" cy="575" r="48"/><rect x="934" y="575" width="22" height="86" rx="11"/><path d="M900 665H990"/>
+</g>
+<g opacity=".9">
+<path d="M525 420H675" stroke="#F7EFE2" stroke-opacity=".6" stroke-width="3"/>
+<path d="M548 453H652" stroke="#D9A441" stroke-opacity=".7" stroke-width="4"/>
+<text x="600" y="408" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#F7EFE2" letter-spacing="6">NORRIS</text>
+<text x="600" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#D9A441" letter-spacing="5">60 CAL • 3G CARBS • 1G SUGAR</text>
+</g>
+<path d="M0 680C170 642 310 635 470 672C640 712 790 704 1200 640V760H0V680Z" fill="#000" fill-opacity=".24"/>
+</svg>
